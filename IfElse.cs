@@ -14,3 +14,16 @@ if(a < b) {
 } else {
   Console.WriteLine($"{a} and {b} are equal!"); 
 }
+
+// Simplifies but more complex //
+// (x < y) is the subject
+// ? calls for an if/else
+// : calls for else
+
+String aResult = (a < 10) ? "The first number is less than 10!" : "The first number is greater than 10!";
+
+Console.WriteLine(aResult);
+
+String bResult = (b < 10) ? "The second number is less than 10!" : "The second number is greater than 10!";
+
+Console.WriteLine(bResult);
