@@ -41,16 +41,15 @@ public class Binary {
         if(i < 0) return i + 4; binary[placement] = 0;
          ++placement;
      }
-     if(i >= 4) {
-       binary[placement] = 1;
-        i - 4;
-        if(i < 0) return i + 4; binary[placement] = 0;
-         ++placement;
-     }
      if(i >= 2) {
        binary[placement] = 1;
         i - 2;
         if(i < 0) return i + 2; binary[placement] = 0;
+         ++placement;
+     }
+     if(i >= 1) {
+       binary[placement] = 1;
+        i - 1;
          ++placement;
      }
      if(i == 0) {
